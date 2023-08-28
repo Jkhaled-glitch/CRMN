@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".HomeActivity"
+    tools:ignore="ExtraText">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="65dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007"
+        app:srcCompat="@drawable/logopng" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="250dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="648dp"
+        android:text="Centre de Recherche en Microelectronique Et Nanotechnologie "
+        android:textColor="@color/orange"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.717"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="358dp"
+        android:layout_height="30dp"
+        android:text=" ****  IDENTIFICATION DU DEMANDEUR  ****"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_surface"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Grade :"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288" />
+
+    <TextView
+        android:id="@+id/textsuit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="valider >"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <EditText
+        android:id="@+id/editnumero"
+        android:layout_width="372dp"
+        android:layout_height="60dp"
+        android:background="@drawable/input_bg222"
+        android:drawableLeft="@drawable/icontelephone"
+
+        android:drawableTint="@color/black"
+
+        android:ems="10"
+        android:hint="   Numéro de Téléphone"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.743" />
+
+    <EditText
+        android:id="@+id/editadress"
+        android:layout_width="374dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="   Adress e-mail"
+
+        android:background="@drawable/input_bg222"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawableTint="@color/black"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.675"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.853" />
+
+    <EditText
+        android:id="@+id/editetablissment"
+        android:layout_width="378dp"
+        android:layout_height="57dp"
+        android:background="@drawable/input_bg222"
+        android:drawableLeft="@drawable/iconetab"
+
+        android:drawableTint="@color/black"
+        android:ems="10"
+        android:hint="   Etablissement /LR"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.621" />
+
+    <EditText
+        android:id="@+id/editnometprenom"
+        android:layout_width="382dp"
+        android:layout_height="48dp"
+        android:background="@drawable/input_bg222"
+
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawableTint="@color/black"
+
+        android:ems="10"
+        android:hint="   Nom et Prénom"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <TextView
+        android:id="@+id/textexit"
+        android:layout_width="74dp"
+        android:layout_height="25dp"
+        android:text="exit"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.967" />
+
+    <ImageView
+        android:id="@+id/imageexit"
+        android:layout_width="22dp"
+        android:layout_height="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977"
+        app:srcCompat="@drawable/exit" />
+
+
+    <RadioGroup
+        android:id="@+id/radioid"
+        android:layout_width="202dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/editetablissment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/editnometprenom">
+
+        <RadioButton
+            android:id="@+id/radioenseign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enseignant-Chercheur" />
+
+        <RadioButton
+            android:id="@+id/radiodoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctorant" />
+
+        <RadioButton
+            android:id="@+id/radiocadre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cadre technique" />
+
+        <RadioButton
+            android:id="@+id/radioautre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autre" />
+
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>
